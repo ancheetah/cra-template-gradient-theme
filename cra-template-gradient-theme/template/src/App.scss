@@ -1,0 +1,32 @@
+// @import "~bootstrap/scss/bootstrap";
+@import './theme.scss';
+
+$header-footer-text: $light;
+
+// Sticky Footer
+.main {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: 'Raleway', Arial, sans-serif;
+}
+
+.main-wrapper {
+  flex: 1 0 auto;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.footer {
+  flex-shrink: 0;
+  margin-bottom: 0 !important;
+  color: $light;
+  background: linear-gradient(135deg, hsla(29, 83%, 58%, 1) 25%, hsla(265, 53%, 29%, 1) 100%);
+}
+
+// Navbar
+.navbar-dark {
+  background: linear-gradient(135deg, hsla(265, 53%, 29%, 1) 25%, hsla(29, 83%, 58%, 1) 100%);
+}
+
+@import '~bootstrap/scss/bootstrap';

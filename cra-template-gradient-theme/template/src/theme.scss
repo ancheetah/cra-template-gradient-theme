@@ -1,0 +1,19 @@
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+
+$light: rgb(233, 243, 249);
+$dark: rgb(91, 78, 101);
+$primary: teal;
+
+$theme-colors: (
+    light: $light,
+    dark: $dark,
+    primary: $primary
+);
+
+$navbar-dark-color:  rgba($light, .75);
+$navbar-dark-hover-color:           rgba($light, .5);
+$navbar-dark-active-color:          $light;
+$navbar-dark-disabled-color:        rgba($light, .25);
+$navbar-dark-toggler-icon-bg:       url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='#{$navbar-dark-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>") !default;
+$navbar-dark-toggler-border-color:  rgba($light, .1);
