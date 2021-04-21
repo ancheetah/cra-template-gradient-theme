@@ -1,8 +1,8 @@
 ## React App
 My custom React app template with a gradient Bootstrap theme.
+Based off commit `a1ec223` from https://github.com/ancheetah/ancheetah.github.io/tree/react
 
 ### Create a React app with this template
-
 `npx create-react-app --use-npm --template=file:relative/path/to/template/from/working/directory`
 
 ### Dependencies
